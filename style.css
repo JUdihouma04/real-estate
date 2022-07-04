@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    width: 100%;
+    margin: auto;
+}
+@media (min-width: 1240px) {
+    .container{
+        max-width: 1290px;
+        margin: auto;
+        height: 100%;
+    }
+    
+}
+.container{
+    margin: 0 auto;
+    background-color: #fafafa;
+}
+.navigation{
+    /* margin-top: 2vw; */
+    display: flex;
+    justify-content: space-between;
+}
+.nav-h {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-h a{
+    text-decoration: none;
+    padding: 1vw;
+
+}
+.nav-h li:hover{
+    color: blue;
+    cursor: pointer;
+}
+.G-S{
+    background-color: #0F298B;
+    color: white;
+    padding: 1vw;
+    border-radius: 3vw ;
+}
+.prop{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    background-color: red;
+    margin: auto;
+    margin-top: 3vw;
+}
+.image-1{
+    height: 30%;
+    float: inline-start;
+    
+}
+.e-s{
+    margin-top: 3vw;
+    display: flex;
+    justify-content: space-between;
+}
+.Loc-ion{
+    margin: 2vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw
+    ;
+
+}
