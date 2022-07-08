@@ -1,75 +1,195 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
-*{
-    padding: 0px;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
 }
-body{
-    font-family: 'Space Grotesk', sans-serif;
-    width: 100%;
-    margin: auto;
+body {
+	font-family: "space grotesk", sans-serif;
+	width: 80%
 }
-@media (min-width: 1240px) {
-    .container{
-        max-width: 1290px;
-        margin: auto;
-        height: 100%;
-    }
-    
-}
-.container{
-    margin: 0 auto;
-    background-color: #fafafa;
-}
-.navigation{
-    /* margin-top: 2vw; */
-    display: flex;
-    justify-content: space-between;
-}
-.nav-h {
-    display: flex;
-    justify-content: space-between;
-}
-.nav-h a{
-    text-decoration: none;
-    padding: 1vw;
+.logo {
+	font-size: 30px;
+	width: 50%;
 
 }
-.nav-h li:hover{
-    color: blue;
-    cursor: pointer;
+.navigation {
+	margin-top: 2vh;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
 }
-.G-S{
-    background-color: #0F298B;
-    color: white;
-    padding: 1vw;
-    border-radius: 3vw ;
+.list1 li,
+.list-1 ul li {
+	display: inline-block;
+	justify-content: space-between;
 }
-.prop{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    background-color: white
-    margin: auto;
-    margin-top: 3vw;
+.list-1 {
+	margin-left: 20px;
+	margin-right: 20px;
 }
-.image-1{
-    height: 30%;
-    float: inline-start;
-    
+.part1 a {
+	text-decoration: none;
+	padding: 1vw;
 }
-.e-s{
-    margin-top: 3vw;
-    display: flex;
-    justify-content: space-between;
+.list1 li :hover {
+	color: #0f298b;
+	cursor: pointer;
 }
-.Loc-ion{
-    margin: 2vw;
-    display: flex;
-    justify-content: space-between;
-    padding: 1vw
-    ;
+.button {
+	background-color: #0f298b;
+	color: white;
+	padding: 1vw;
+	border-radius: 3vw;
+	display: flex;
+}
+.hr {
+	margin-bottom: 2vh;
+}
+.help {
+	display: flex;
+	justify-content: left;
+	margin-top: 3vw;
+	width: 50%;
+	color: #0f298b;
+}
+.Learn {
+	background-color: #0f298b;
+}
+.quality {
+	color: black;
+}
+.image1 {
+	height: 200px;
+	width: 300px;
+	margin-left: 50px;
+	float: right;
+}
+.shadow {
+	border-radius: 10px;
+	justify-content: space-evenly;
+	box-shadow: rgba(149, 157, 165 ,0.2) 0px 8px 24px;;
+	background-color: #fff;
+	display: flex;
+	width: 0
+	margin: auto;
+}
+.location{
+	justify-content: space-evenly;
+	display: flex;
+}
 
+.s-bttn{
+	border-radius: 5px;
+	margin: auto;
+	height: 40%;
+	width: 10%;
+	background-color: #2549d3;
+	color:#fafafa
+}
+.dark{
+	color: #0f298b;
+	font-weight: bolder;
+}
+.light{
+	color: #535353;
+}
+footer{
+	background-color: #0f298b;
+	color: #fafafa;
+	padding: 0px;
+	margin-top: 5%;
+	display: flex;
+	padding: 35px;
+	min-height: 35vh;
+}
+.section1{
+	font-size: 30px;
+	font-weight: bold;
+	color;
+	#0f298b
+	margin-top: 10px
+	margin-bottom: 10px
+}
+.middle{
+	text-align: centre;
+}
+.Prod-t{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.dex{
+	display: flex;
+    padding: 10px 25px;
+    justify-content: space-between;
+}
+.box{
+	flex-direction: row;
+	padding: 25px;
+	width:25%;
+	text-align: center;
+	background-color: #fafafa;
+	margin: auto;
+}
+.box-image{
+	height: 100px;
+	width: auto;
+
+}
+.Prod-t{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.pick{
+	display: flex;
+}
+.image-pick{
+	width:50%
+}
+.image-pic{
+	width:85%;
+	margin:25px
+}  
+.Partition{
+	background-color: #fff;
+    border-radius: 10px 100px 0px 30px;
+	display: inline-flex;
+    margin: 10px 25px;
+    width: 28%;
+}
+.dex{
+	display: flex;
+	padding: 25px;
+	justify-content: space-between;
+}
+.Akimbo{
+	background color: ;
+}
+.image-ions{
+	width: 80%;
+}
+button{
+	background-color: #0f298b;
+	color: white;
+	padding: 1vw;
+	border-radius: 3vw;
+	float: right;	
+}
+.boxes{
+	display: inline-block;
+}
+.amount{
+	display: inline-flex;
+}
+.center{
+	text-align: center;
+}
+.customer{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #0f298b;
 }
