@@ -51,7 +51,7 @@ No licence
 
 Slack Name - @Sheldon Ouma
 
-Email Address - [David Ondiege](sheldon.ouma@student.moringaschool.com)
+Email Address - [Sheldon Ouma](sheldon.ouma@student.moringaschool.com)
 
 
 ## Copyright
